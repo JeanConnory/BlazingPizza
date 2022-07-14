@@ -12,9 +12,10 @@ namespace BlazingPizza
             {
                 Special = special,
                 SpecialId = special.Id,
-                Size = Pizza.DefaultSize,
                 Toppings = new List<PizzaTopping>(),
             };
+
+            ConfiguringPizza.Size = ConfiguringPizza.DefaultSize;
 
             ShowingConfigureDialog = true;
         }
